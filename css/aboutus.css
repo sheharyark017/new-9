@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* navbar */
+
+.navbar-top {
+    position: fixed;
+    padding-top: 20px;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+}
+
+.inner-width {
+    margin: 0 50px;
+    padding: 0 40px;
+}
+
+.navbar-top .inner-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 50px;
+    color: #fff;
+}
+
+.menu-toggler {
+    background: none;
+    border: none;
+    outline: none;
+    width: 30px;
+    position: relative;
+    z-index: 999;
+    display: none;
+}
+
+.menu-toggler span {
+    display: block;
+    height: 3px;
+    background: #fff;
+    margin: 6px 0;
+    position: relative;
+    transition: .3s linear;
+}
+
+.navbar-top a {
+    color: #fff;
+}
+
+.navbar-menu a {
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 30px;
+    transition: .2s linear;
+}
+
+.navbar-menu a:hover {
+    letter-spacing: 1.2px;
+}
+
+.sticky {
+    /* background-image: linear-gradient(to right, #FF8008 0%, #FFC837 51%, #FF8008 100%); */
+    background-image: linear-gradient(to right, #1cbcd8 0%, #93EDC7 51%, #1cbcd8 100%);
+    padding: 0px 0;
+    transition: .3s;
+}
+
+
+/* end navbar */
+
+
+/* about us top */
+
+.about-top {
+    background-image: linear-gradient(to right, #1cbcd8 0%, #93EDC7 51%, #1cbcd8 100%);
+}
+
+.about-top-head {
+    padding: 150px 0 60px;
+    color: #fff;
+    text-align: center;
+}
+
+.about-top-head p {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+/* end about us top */
+
+
+/* about us content */
+
+
+/* about us text */
+
+.about-col {
+    padding: 20px;
+}
+
+.about-text-col {
+    width: 60%;
+}
+
+.aboutus-content {
+    padding: 80px 0px 20px;
+}
+
+.aboutus-content-head {
+    text-align: center;
+}
+
+.aboutus-content-head p {
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.aboutus-content-body p {
+    color: #606060;
+}
+
+
+/* end about us text */
+
+
+/* about us image */
+
+.about-image-col {
+    width: 40%;
+    padding-top: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* end about us image */
+
+
+/* end about us content */
+
+
+/* footer */
+
+footer a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 5px 0;
+    display: block;
+}
+
+footer a:hover {
+    color: #fff;
+    padding-left: 7px;
+    transition: .2s;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+footer {
+    /* background-image: linear-gradient(to right, #FF8008 0%, #FFC837 51%, #FF8008 100%); */
+    background-image: linear-gradient(to right, #1cbcd8 0%, #74ecba 51%, #1cbcd8 100%);
+    color: #fff;
+}
+
+.footer-col h3 {
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+.inner-footer {
+    margin: 80px 80px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 20px;
+}
+
+.footer-about {
+    padding-right: 70px;
+}
+
+.footer-about p {
+    font-size: 15px;
+}
+
+.footer-contact i {
+    padding-right: 7px;
+}
+
+.footer-social i {
+    display: inline-block;
+    margin: 5px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    border-radius: 999px;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 8px 3px rgb(16, 188, 231);
+}
+
+.footer-social i:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 1s;
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+.face {
+    padding: 8px 17px;
+}
+
+.insta {
+    padding: 8px 14px;
+}
+
+.twitter {
+    padding: 8px 13px;
+}
+
+.linked {
+    padding: 8px 14px;
+}
+
+.insta:hover {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+    box-shadow: 0 0 0 0;
+}
+
+.face:hover {
+    background: #4267B2;
+    box-shadow: 0 0 0 0;
+}
+
+.twitter:hover {
+    background: #1DA1F2;
+    box-shadow: 0 0 0 0;
+}
+
+.linked:hover {
+    background: #0e76a8;
+    box-shadow: 0 0 0 0;
+}
+
+.credits {
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+/* end footer */
+
+
+/* responsive */
+
+@media screen and (max-width: 1100px) {
+    /* navbar */
+    .logo {
+        font-size: 40px;
+    }
+    .navbar-menu a {
+        margin-left: 20px;
+    }
+    .inner-footer {
+        margin: 80px 30px 0;
+    }
+    .footer-col {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    /* navbar */
+    .inner-width {
+        margin: 0 20px;
+        padding: 0 20px;
+    }
+    .menu-toggler {
+        display: block;
+        z-index: 999;
+    }
+    .logo {
+        font-size: 30px;
+    }
+    .navbar-menu {
+        position: fixed;
+        height: 100vh;
+        width: 70%;
+        /* background-image: linear-gradient(to right, #17ccc6 0%, #93EDC7 51%, #17ccc6 100%); */
+        background-color: #17ccc6;
+        box-shadow: 0 0 100px 2px rgb(0, 0, 0);
+        top: 0;
+        right: -100%;
+        padding: 50px 20px;
+        transition: .3s linear;
+        z-index: 998;
+    }
+    .sticky .navbar-menu {
+        background-color: #17ccc6;
+    }
+    .navbar-menu a {
+        color: #fff;
+        display: block;
+        font-size: 20px;
+        margin: 30px 0;
+    }
+    .navbar-menu a:hover {
+        border: none;
+    }
+    .navbar-menu.active {
+        right: 0;
+    }
+    .menu-toggler.active span:nth-child(1) {
+        transform: rotate(-45deg);
+        top: 4px;
+    }
+    .menu-toggler.active span:nth-child(2) {
+        opacity: 0;
+    }
+    .menu-toggler.active span:nth-child(3) {
+        transform: rotate(45deg);
+        bottom: 14px;
+    }
+    /* end navbar */
+    /* about us  */
+    .about-col {
+        padding: 5px 30px;
+    }
+    .about-text-col {
+        width: 100%;
+    }
+    .aboutus-content {
+        padding: 40px 0px 0px;
+    }
+    .aboutus-content-head p {
+        padding-bottom: 20px;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .about-image-col img {
+        display: none;
+    }
+    .about-image-col {
+        width: 100%;
+    }
+    /* end about us */
+    /* footer */
+    .inner-footer {
+        margin: 80px 20px 0;
+    }
+    .footer-col {
+        width: 100%;
+    }
+    /* end footer */
+}
