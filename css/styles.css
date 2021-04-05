@@ -176,7 +176,7 @@ body {
     width: 50%;
 }
 
-.learn a {
+.learn .learn-btn {
     color: #fff;
     font-size: 25px;
     font-weight: 600;
@@ -184,7 +184,7 @@ body {
     display: inline-block;
     width: 60%;
     padding: 11px 0;
-    margin: 30px auto;
+    margin: 0px auto 30px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
@@ -194,16 +194,33 @@ body {
     display: block;
 }
 
-.learn a {
+.learn .learn-btn {
     background-image: linear-gradient(to right, #17ccc6 0%, #93EDC7 51%, #17ccc6 100%);
 }
 
-.learn a:hover {
+.learn .learn-btn:hover {
     background-position: right center;
     /* change the direction of the change here */
     color: #fff;
     box-shadow: 7px 7px 20px 0 #436b5a;
     text-decoration: none;
+}
+
+.learn-img {
+    margin-top: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.learn-img img {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.learn-img img:hover {
+    width: 72%;
+    transition: .3s;
 }
 
 .projects {
